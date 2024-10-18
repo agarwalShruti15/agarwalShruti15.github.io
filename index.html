@@ -53,16 +53,30 @@
   </div>
   <p><hr size="1" align="left" noshade><p>
 
-<p><a name="about"></a> I’m a research scientist in AI for Content Authenticity team at Adobe. My primary research interest lies in content provenance and multimedia forensics with a focus on both active and passive forensic techniques like watermarking, deep-fake detection, robust image fingerprint, etc. 
-Previously, I was a postdoc at CSAIL with Prof. William Freeman. Simultaneously, I was also working as a Lecturer for Computer Vision course in MIDS program at Berkeley School of Information. I did my PhD from CS department of UC Berkeley advised by <a href="https://farid.berkeley.edu">Prof. Hany Farid</a>.</p>
+<p><a name="about"></a> I’m a research scientist in AI for Content Authenticity team at Adobe. 
+  My primary research interest lies in content provenance and multimedia forensics with a focus 
+  on both active and passive forensic techniques like watermarking, deep-fake detection, robust image fingerprint, etc. 
+Previously, I was a postdoc at CSAIL with Prof. William Freeman. Simultaneously, I was also working 
+as a Lecturer for Computer Vision course in MIDS program at Berkeley School of Information. I did my PhD 
+from CS department of UC Berkeley advised by <a href="https://farid.berkeley.edu">Prof. Hany Farid</a>.</p>
 <p>
   <a href="https://www.dropbox.com/s/xgyuczxspstny5s/CV.pdf?dl=0">CV</a> (Last updated 2022), 
   <a href="https://github.com/agarwalShruti15">GitHub</a>, <a href="https://scholar.google.com/citations?user=gcuoIb0AAAAJ&hl=en">Google Scholar</a>, <a href="https://www.linkedin.com/in/shruti-agarwal-54763870/">LinkedIn</a>.
 </p>
 
 <h3><p><a name="innews"></a>News</h3>
-
   <ul>
+    
+    <LI>
+      General Chair for ACM IH&MMSec 2025 
+    </LI>
+    <LI>
+      Co-Organizer, Media Forensics CVPR <a href="https://sites.google.com/view/wmf2024/home?authuser=0">2024</a>, 2025
+    </LI>
+    <LI>
+      Speaker at Adobe MAX Sneaks for #ProjectKnowHow, 10.15.24 [<a href="https://www.adobe.com/max/2024/sessions/max-sneaks-gs3.html">Video</a>][<a href="https://www.theverge.com/2024/10/16/24271338/adobe-sneaks-project-know-how-content-credentials">Article</a>]
+    </LI>
+
     <LI>
       Keynote Speaker at Workshop On Media Forensics, CVPR, Louisiana, 06.19.22 [<a href="https://sites.google.com/view/mediaforensics2022/invited-speakers?authuser=0">Workshop</a>], [<a href="https://www.dropbox.com/s/8aty2ihhskuento/multi-modal_deepfake_detection.pdf?dl=0">ppt</a>]
     </LI>
@@ -89,6 +103,9 @@ Previously, I was a postdoc at CSAIL with Prof. William Freeman. Simultaneously,
   <h3><a name="Teaching"></a>Teaching</h3>
 
   <ul>
+    <li>
+      <a href="https://courses.illinois.edu/schedule/2024/spring/INFO/202">Guest Lecturer in Info 202 Social Aspects Info Tech, School of Information Sciences, UIUC </a> (Spring '24)
+    </li>
     <LI>
       <a href="https://www.ischool.berkeley.edu/courses/datasci/281">Data Science W281, Computer Vision</a> (Spring, Summer, Fall '22)
     </LI>
@@ -96,6 +113,67 @@ Previously, I was a postdoc at CSAIL with Prof. William Freeman. Simultaneously,
 
   <h3><a name="research"></a>Research</h3>
     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+      <tr>
+        <td  valign="top" align="center">
+          <img src="projects/provenance.png" border=0 height=360></a>
+        </td>
+        <td valign="top" align="left">
+          <ul>
+            <LI>
+              <b> Content Provenance:  </b> 
+              <BR>
+                Content provenance which means information on the creation, authorship, and editing of a 
+                digital asset such as an image. Content Credentials include this provenance information as metadata, along with the 
+                cryptographic means to authenticate that the information is correctly tied to the content and is unchanged 
+                from when it was originally added. But what happens when content platforms strip this metadata away? Durable Content Credentials 
+                use invisible watermarking to embed an identifier in an image. Invisible watermarking combined with image fingerprinting 
+                in order to safeguard against credential spoofing. In doing so, durable Content Credentials unify three t
+                echnology pillars: metadata, watermarking, and fingerprinting. This triad of technologies mutually support one 
+                another to create permanently attached Content Credentials. 
+              <p>
+              <ul>
+                <LI>
+                  <b> "ProMark: Proactive Diffusion Watermarking for Causal Attribution", </b>
+                  <BR>
+                    V. Asnani, J. Collomosse, T. Bui, X. Liu, <b> S. Agarwal </b>
+                  <BR>
+                  <em>CVPR, 2024. </em> 
+                  <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Asnani_ProMark_Proactive_Diffusion_Watermarking_for_Causal_Attribution_CVPR_2024_paper.pdf">[pdf]</a>
+                </LI>
+                <p>
+                <LI>
+                  <b> "TrustMark: Universal Watermarking for Arbitrary Resolution Images", </b>
+                  <BR>
+                    T. Bui, <b>S. Agarwal</b>, J. Collomosse
+                  <BR>
+                  <em>arXiv, 2024. </em> 
+                  <a href="https://arxiv.org/abs/2311.18297">[pdf]</a>
+                </LI>
+                <p>
+                <LI>
+                <b> "RoSteALS: Robust Steganography using Autoencoder Latent Space", </b>
+                <BR>
+                  Tu Bui, <b>S. Agarwal</b>, N. Yu, J. Collomosse
+                <BR>
+                <em>Workshop on Media Forensics at CVPR, Online, 2023. </em> 
+                <a href="https://openaccess.thecvf.com/content/CVPR2023W/WMF/papers/Bui_RoSteALS_Robust_Steganography_Using_Autoencoder_Latent_Space_CVPRW_2023_paper.pdf">[pdf]</a>
+                </LI>
+                <p>
+                  <LI>
+                    <b> "EKILA: Synthetic Media Provenance and Attribution for Generative Art", </b>
+                    <BR>
+                      K. Balan, <b>S. Agarwal</b>, S. Jenni, A. Parsons, A. Gilbert, J. Collomosses
+                    <BR>
+                    <em>Workshop on Media Forensics at CVPR, Online, 2023. </em> 
+                    <a href="https://openaccess.thecvf.com/content/CVPR2023W/WMF/papers/Balan_EKILA_Synthetic_Media_Provenance_and_Attribution_for_Generative_Art_CVPRW_2023_paper.pdf">[pdf]</a>
+                  </LI>
+              </ul>
+
+            </LI>
+          </ul>
+        </td>
+      <tr>
 
       <tr>
         <td  valign="top" align="center">
